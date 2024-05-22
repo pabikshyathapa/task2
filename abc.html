@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+   <head> 
+      <title>Registration Form</title>
+   </head>
+   <body>
+      <h1>Registration</h1>
+      <form action="/submit_registration" method="post">
+         <label for="username">Username:</label><br>
+         <input type="text" id="username" name="username"><br>
+         
+         <label for="email">Email:</label><br>
+         <input type="email" id="email" name="email"><br>
+         
+         <label for="password">Password:</label><br>
+         <input type="password" id="password" name="password"><br>
+         
+         <label for="confirm_password">Confirm Password:</label><br>
+         <input type="password" id="confirm_password" name="confirm_password"><br>
+         
+         <label for="contact_number">Contact Number:</label><br>
+         <input type="tel" id="contact_number" name="contact_number"><br>
+         
+         <label for="gender">Gender:</label><br>
+         <input type="radio" id="male" name="gender" value="male">
+         <label for="male">Male</label>
+         <input type="radio" id="female" name="gender" value="female">
+         <label for="female">Female</label>
+         <input type="radio" id="other" name="gender" value="other">
+         <label for="other">Other</label><br>
+         
+         <input type="submit" value="Register">
+      </form>
+   </body>
+</html>
